@@ -16,3 +16,640 @@ Data type
 types data types
 comments single/multi line comment 
 Docstrings
+
+=======================
+Jan 25
+=======================
+
+compiler vs interpreter
+python 2 and python 3
+study in detail about print function
+study in detail about input function
+
+=======================
+Jan 27
+=======================
+
+study in detail about input function
+Data type conversion (int to float,bool,string)
+
+=======================
+Jan 28
+=======================
+
+Data type conversion (int to float,bool,string)
+
+For below programs collect input from user, pi is constant value 3.14 (print output in formatted way)
+
+write a program to calculate perimeter of the circle with radius 10.2
+write a program to calculate area of circle with radius (float) (collect using input function)
+write a program to calculate perimeter of the cricle with radius (float) (collect it through input function)
+Collect radius and height from user,
+calculate Area of cone (area of cone = 0.33 * pi * r * r * h) (int)
+
+
+=========================
+feb 1
+==========================
+
+
+
+Type1: var = "python_interpreter"
+
+print(var[1:3])
+print(var[0:5])
+print(var[-5:-2])
+print(var[:3])
+print(var[3:])
+print(var[:])
+print(val[3:10])
+print(val[2:5])
+print(val[0:10])
+print(val[5:-5])
+print(val[2:8])
+print(val[:8])
+print(val[5:])
+print(val[8:12])
+print(val[12:5])
+
+
+
+Type2:  var = "java_compiler_go"
+
+print(var[2:10])
+print(var[2:10:1])
+print(var[2:10:2])
+print(var[2:10:3])
+print(var[-12:10])
+print(var[-12:10:1])
+print(var[-12:10:2])
+print(var[-12:10:3])
+
+print(var[5::1])
+print(var[5::2])
+print(var[:5:1])
+print(var[:-5:1])
+print(var[-8::2])
+
+print(val[3:10:1])
+print(val[3:10:2])
+print(val[3:10:3])
+print(val[5:-5:1])
+print(val[5:-5:2])
+print(val[5:-5:5])
+print(val[:8:4])
+print(val[5::3])
+print(val[::2])
+print(val[12:5:3])
+
+==============================
+2-2-22
+===============================
+
+"Information_Technology"
+
+#[-2:0:-1]
+#[5:-5:5]
+#[-5:5:-5]
+#[5:-5:-5]
+#[3:9:-1]
+#[9:-10:-2]
+#[2:-4:-4]
+#[-4:2:-2]
+#[0:-1:-3]
+#[-3:3:6]
+#[::-3]
+#[::-2]
+#[2:-2:-2]
+#[2:-2:2]
+#[5:-5:5]
+#[3:-3:3]
+#[::2]
+#[::-5]
+
+
+"python_is_using_interpreter"
+
+#[-2:0:-1]
+#[5:-5:5]
+#[-5:5:-5]
+#[5:-5:-5]
+#[3:9:-1]
+#[9:-10:-2]
+#[2:-4:-4]
+#[-4:2:-2]
+#[0:-1:-3]
+#[-3:3:6]
+#[::-3]
+#[::-2]
+#[2:-2:-2]
+#[2:-2:2]
+#[5:-5:5]
+#[3:-3:3]
+#[::2]
+#[::-5]
+
+
+
+"computer science"
+
+print(a[-10:10:3])
+print(a[-5:-1:1])
+print(a[-8:-2:10])
+print(a[5::3])
+print(a[:5:2])
+print(a[10:14:2])
+print(a[-10:-3:3])
+print(a[5:12:5])
+print(a[3:-3:3])
+print(a[-5:-3:20])
+
+"Information_technology"
+
+
+print(a[-10:10:3])
+print(a[-5:-1:1])
+print(a[-8:-2:10])
+print(a[5::3])
+print(a[:5:2])
+print(a[10:14:2])
+print(a[-10:-3:3])
+print(a[5:12:5])
+print(a[3:-3:3])
+print(a[-5:-3:20])
+
+
+"Google_chrome_browser"
+
+
+print(a[-10:10:3])
+print(a[-5:-1:1])
+print(a[-8:-2:10])
+print(a[5::3])
+print(a[:5:2])
+print(a[10:14:2])
+print(a[-10:-3:3])
+print(a[5:12:5])
+print(a[3:-3:3])
+print(a[-5:-3:20])
+
+
+Pre study: https://www.w3schools.com/python/python_ref_string.asp
+
+==============================================
+String methods Tasks Feb 4
+==============================================
+
+
+Task1:
+
+Get one string from user
+identify the middle character of the string
+
+
+Task2:
+
+
+string1: ***python***
+string1: **python********
+string: ********java*******
+
+
+output: python  (strip,rstrip,lstrip method *)
+
+
+Task3: (name<space>float)
+
+collect three strings from user  name<space>float
+
+string1: "ravi 10.30"  
+string2: "meghala 12.19"
+string3: "Gokul 20.20"
+
+split + indexing
+
+10.30 + 12.19 + 20.20 ===> output ===> add it 42.69
+
+
+Task4:
+
+#collect two strings from user
+
+string1: python
+String2: java
+
+output ===> jythonpava64hv
+
+string1: maths
+string2: science
+
+output ===> sathsmcience57te
+
+Task5:
+
+Collect two strings from user
+
+string1: wikipedia
+string2: typescript
+
+output: p  +  c   ===> ascii value of p + ascii value of c  ====>  198
+(ord , chr)
+
+
+Task6:
+
+collect one string from user:
+
+string: computer
+output: c6r
+
+string: mathematics
+output: m9s
+
+
+Task7
+
+Say hello world with python
+
+
+Task 8
+
+swapcase
+
+Task9
+
+what;s your name
+
+
+Task10:
+
+Mutation
+
+Task11:
+
+Arithmetic operator
+
+Task12:
+python divison
+
+
+=======================
+Feb 7
+=======================
+
+List
+
+#Create an empty list (two ways)
+#Concatenate with [5,6,7,8]
+#add 8,9,1,5,6,7,8,1 elements to that list
+#Find frequency of 8 (count)
+#find the mean of the list
+#find sum (List) + min + Max 
+#Find median of the list
+#remove duplicates from list and give output in the format of tuple
+
+Study: https://www.w3schools.com/python/python_ref_list.asp
+
+Tuple
+
+#Create two tuples (1,4,5,6,7,8) (5,6,7,8,9)
+#Find the common elements between two tuples
+#Concatenate both tuples and remove duplicates from tuple
+#Find the index value of 9 (after concatenation)
+#multiply above elements 3 times
+
+ Sets
+
+#Create two empty sets
+#update set1 with 7,8,9,1,2,3,4,5,0
+#update set2 with 4,5,6,0
+#check whether set2 is subset of set1 or no ?
+#check whether both have common elements are no ?
+#remove 8 from set 1 and set 2 ==> find the inferences
+#discard 0 from set1 and set2 
+#find collection of both sets ===> set1 and set2
+
+Dict (Feb 9)
+
+#create a dictionary
+#{1:["english","maths","science"], 2:[10,20,30], 3:["bio-botany","bio-zoology","Algebra"]}
+#Extract "bobtn" from above dictionary
+#Extract "arbeg" from above dictionary
+#print all keys in dictionary and convert it into tuple
+#Find the average of all numbers available under key "2"
+
+
+==========================================
+Feb 11
+==========================================
+
+Task1:
+
+Li1 = [2,3,4,5,[45,56,67,78,[111,222,333,[5555,3333,[10000,50000,"python","computer"],1111,7777,8888],444,555,666,777],89,23,34]]
+
+
+5
+56
+222
+50000
+put
+5555
+7777
+666
+89
+on
+333
+3333
+
+Task2
+
+
+a = [1,2,3,4,[100,101,102,"Computer_science"],200,203]
+
+Extract
+#science
+#computer
+
+Task3
+a = [1,2,3,4,[101,102,103,[201,202,[999]], 666, 777]]
+
+Extract
+#666
+#201
+#102
+#999
+#777
+
+
+Task4:
+
+Li1 = [2,3,"python","hello",4,5,0]  
+
+Extract
+#ll
+#thon
+
+Task5
+Li1 = [1,2,3,4,5,[11,22,33,44,55,[111,222,333,444],6666,7777],7777]
+
+Output Prediction 
+
+print(Li1[5][0])
+print(Li1[5][6])
+print(Li1[5][-2])
+print(Li1[5][7])
+print(Li1[6])
+print(Li1[5][5][1])
+
+print(Li1[-2][-1])
+
+
+print(Li1[-2][2:4])
+
+
+Task6:
+
+a = {1: [1,2,3,"python"], 2:{10:"hello",20:"welcome",40: "science"}, 99: {3,4,5,6}, 40:{1:"zoology", 2:"Botany"}}
+
+
+#py
+#ello
+#en
+#zoo
+#Bot
+
+
+
+print(a)
+
+Task7:
+
+Covert below two lists in to a dictionary
+
+[1,2,3,4,5]
+["python","cpp","c","java","php"]
+
+
+Task8:
+
+Convert below set in to a list
+
+{5,4,3,6,2,7,1}
+
+Task9:
+
+Remove duplicates from below list
+
+[5,4,3,6,2,7,1,2,3,4,1,2,3,4,5,6,5]
+
+
+Task10:
+
+Convert below one to tuple
+
+[5,4,3,6,2,7,1,2,3,4,1,2,3,4,5,6,5]
+
+
+========================
+Feb 15
+=========================
+
+
+#Task1
+
+#hackerrank Write a function
+
+#Task2
+
+#hackerrank Python If-Else
+
+#Task3
+
+#Fizz buzz
+#Get one number from user
+#Multiple of 3 ==> Fizz
+#Multiple of 5 ===> buzz
+#Multiple of 3 and 5 ===> Fizzbuzz
+#None ==> Invalid number
+
+Task4:
+
+#Get one mark from student
+#mark 0 to 100 Valid otherwise invalid mark
+
+#50 + PASS otherwise FAIL
+#90 to 100 ===> A 
+#80 to 89 ===> B
+#70 to 79 ===> C
+#60 to 69 ===> D
+#50 to 59 ===> E
+
+#0 to 49 ===> FAIL
+
+
+#93 ===> A
+#99 ===> A
+#88 ====> B
+
+#78
+
+#VALID MARK (between 0 to 100)
+#PASS MARK (50 +)
+#C
+
+#65
+
+
+
+Task 5:
+
+#collect three marks from user
+#calculate mark1 + mark2 + mark3 / 100
+
+if calculate > 90 ===> Grade A
+if calculate > 75 ==> Grade B
+calculate > 50  ==> grade C
+Other wise ===> Grade D
+
+
+
+===============================
+Feb 16
+==============================
+
+Task1:
+
+#Using Range function  print multiples of 5 from 0 to 75
+#Using Range function  print multiples of 8 from 0 to 72
+
+#Using Range function  print multiples of 5 from 75 to 0
+#Using Range function  print multiples of 8 from 96 to 72
+
+Task2:
+
+Get a dynamic list from user
+
+Task3:
+
+Get a dynamic dictionary from user
+
+clues Task2 and Task3
+#1. get number of elements from user
+#Loop through range
+#append to list/dicti
+
+Task4:
+
+Get two integers from user
+print multiples of 8 between them
+
+clues:
+Use range function in for loop
+Use if condition inside for loop
+add in to list
+
+input 10 100
+multiples of 8
+
+[16,24,32.....,96]
+
+
+Task5:
+
+
+Input:
+Li1 = [3,4,5,2,7,8,9,10]
+
+Output:
+Li_odd = [3,5,7,9]
+Li_even = [4,2,8,10]
+
+#Li1 = [3,4,5,2,7,8,9,10]
+
+Task6:
+
+Input: [-1, -7,8,10,20,21,17,28,-3,0,0,]
+    
+Output:
+neg_LI = [-1,-7,-3]
+pos_LI = []
+Zeros = []
+
+Numeber of postivie ele: 7
+Number nega: 3
+Number of zeros: 2
+
+
+Task7:
+
+Study range function and for loop properly
+
+
+print(list(range(5)))
+print(list(range(1,5)))
+print(list(range(5,20)))
+print(list(range(-5,5)))
+print(list(range(10,100,10)))
+print(list(range(10,0,-1)))
+print(list(range(-5,5,3)))
+print(list(range(10,100,5)))
+print(list(range(10,0,-2)))
+
+
+====================
+feb 18
+===================
+
+https://www.w3schools.com/python/python_ref_functions.asp (any 20 functions)
+
+#User Def functions (4)
+Write function to concatenate three strings
+Write a function multiply three different integers and return a int
+Write a function to return middle char of the string
+write a function to return whether middle character is vowel or not 
+
+Advance (7)
+
+1. whether the string is palindrome or not
+2. whether the number is armstrong or not
+3. whether the number is prime or not
+4. Find factorial of a number using function
+5. Find factorial of a number using recursive function
+6. Find factorial of a number without using function
+7. Fibonacci series
+
+
+===========================================
+Feb 25
+=============================================
+
+Hackerrank 
+
+https://www.hackerrank.com/challenges/exceptions/problem?isFullScreen=true
+Read about any 12 exceptions and write program for that https://docs.python.org/3/library/exceptions.html
+https://www.geeksforgeeks.org/python-raising-an-exception-to-another-exception/
+https://www.geeksforgeeks.org/python-exception-handling/
+
+===========================================
+March 3
+=============================================
+Os module ===> 15 operations
+Sys module ===> 5-8 operations  (execute python program from command line)
+
+==================
+March 5
+================
+
+https://www.hackerrank.com/domains/regex  (300 points before March 11)
+
+Pre study:
+
+https://www.w3schools.com/python/gloss_python_if_statement.asp
+https://www.w3schools.com/python/python_conditions.asp
+https://www.w3schools.com/python/python_while_loops.asp
+https://www.w3schools.com/python/python_for_loops.asp
+https://www.w3schools.com/python/python_ref_functions.asp
+https://www.w3schools.com/python/python_functions.asp
+https://www.w3schools.com/python/python_modules.asp
+
+
